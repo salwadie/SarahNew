@@ -11,7 +11,24 @@ import SwiftUI
 struct SarahNewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+         ContentView()
         }
     }
 }
+
+import SwiftUI
+import UIKit
+
+// نموذج Recipe يمثل الوصفة
+//struct Recipe: Identifiable, Equatable {
+ //   let id = UUID()
+   // let title: String
+    //let description: String
+    //let image: UIImage?
+    //let ingredients: [String]
+
+
+// ViewModel لإدارة قائمة الوصفات ومشاركتها بين الصفحات
+//class RecipesViewModel: ObservableObject {
+  //  @Published var recipes: [Recipe] = []
+

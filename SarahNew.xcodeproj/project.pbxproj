@@ -29,9 +29,33 @@
 		563BEF612CC54BB30034A2BB /* SarahNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarahNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5605BB382CC9C5D50029071E /* Exceptions for "SarahNew" folder in "SarahNew" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+			);
+			target = 563BEF462CC54BB20034A2BB /* SarahNew */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		5605BB392CC9C5D50029071E /* Exceptions for "SarahNew" folder in "Compile Sources" phase from "SarahNew" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 563BEF432CC54BB20034A2BB /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		563BEF492CC54BB20034A2BB /* SarahNew */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5605BB382CC9C5D50029071E /* Exceptions for "SarahNew" folder in "SarahNew" target */,
+				5605BB392CC9C5D50029071E /* Exceptions for "SarahNew" folder in "Compile Sources" phase from "SarahNew" target */,
+			);
 			path = SarahNew;
 			sourceTree = "<group>";
 		};
